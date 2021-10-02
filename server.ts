@@ -6,10 +6,14 @@
 // export const myServer = app.listen(port, () => {
 //     serverConfig.init();
 // });
-const http = require('http');
+const express = require('express');
+const app = express();
+const port = 3000;
 
-http.createServer(function (req: any, res: any) {
-  res.writeHead(200, {'Content-Type': 'text/html'});
-  console.log('node done');
-  res.end('Hello World!');
-}).listen(8080);
+app.get('/', (req: any, res: any) => {
+  res.send('hello world!');
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})
