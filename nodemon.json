@@ -1,0 +1,9 @@
+{
+  "env": {
+    "PORT": 3000,
+    "MONGO_ATLAS_PW": "yourWishMasterInTheHouse",
+    "JWT_KEY": "yourWishMasterInTheHouseSecret",
+    "OTP_API_KEY": "e71cc6e6-f3a1-11eb-8089-0200cd936042",
+    "ROOM_ID_ADDON": "duress_%_your_wish_master$_odisha"
+  }
+}
