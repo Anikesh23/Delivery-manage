@@ -1,5 +1,3 @@
-import {ServerConfig} from "./classes/server.config";
-
 // const http = require('http');
 // const serverConfig = new ServerConfig();
 // const app = serverConfig.app;
