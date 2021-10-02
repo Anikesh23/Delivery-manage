@@ -4,7 +4,7 @@
   "description": "Delivery Management API ",
   "main": "index.ts",
   "scripts": {
-    "start": "nodemon server.ts",
+    "start": "node server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Guru",
